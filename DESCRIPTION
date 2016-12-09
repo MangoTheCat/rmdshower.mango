@@ -1,0 +1,28 @@
+Package: rmdshower.mango
+Title: Mango Theme for the 'rmdshower' Presentation Tool
+Version: 2.0.0
+Authors@R: c(
+    person("Vadim", "Makeev", role = c("aut", "cph"),
+       comment = "shower, https://github.com/shower/shower"),
+    person("Oleg", "Jahson", role = c("aut", "cph"),
+       comment = "shower, https://github.com/shower/shower"),
+    person("Slava", "Oliyanchuk", role = c("aut", "cph"),
+       comment = "shower, https://github.com/shower/shower"),
+    person("Roman", "Komarov", role = c("aut", "cph"),
+       comment = "shower, https://github.com/shower/shower"),
+    person("Artem", "Polikarpov", role = c("aut", "cph"),
+       comment = "shower, https://github.com/shower/shower"),
+    person("Tony", "Ganch", role = c("aut", "cph"),
+       comment = "shower, https://github.com/shower/shower"),
+    person("Denis", "Hananein", role = c("aut", "cph"),
+       comment = "shower, https://github.com/shower/shower"),
+    person("Gábor", "Csárdi", role = c("aut", "cre"),
+       email = "gcsardi@mango-solutions.com"),
+    person(family = "Mango Solutions", role = "cph")
+  )
+Description: CSS theme files for the 'rmdshower' presentation tool.
+License: MIT + file LICENSE
+URL: https://github.com/mangothecat/rmdshower.mango
+BugReports: https://github.com/mangothecat/rmdshower.mango/issues
+RoxygenNote: 5.0.1
+Encoding: UTF-8

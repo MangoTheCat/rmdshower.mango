@@ -1,0 +1,53 @@
+// ------------------------------------------------------------------
+// Titlepage
+// ------------------------------------------------------------------
+
+.titlepage {
+	background-image: url("../images/R_Front.png");
+	background-repeat:no-repeat;
+	background-position: left bottom;
+	background-size: 100% 100%;
+	}
+
+// Title
+
+.titlepage h1 {
+	text-align: right;
+	position: absolute;
+	right: 30px;
+        top: 20px;
+	width: 60%;
+	font-size: 50px;
+	font-weight: 700;
+	font-family: 'PT Sans Narrow', sans-serif;
+	color: $grey;
+	line-height: 1;
+	}
+
+// Author
+
+.titlepage h2 {
+	text-align: right;
+	position: absolute;
+	right: 50px;
+	bottom: 10px;
+	line-height: 1.2;
+	width: 90%;
+	font-size: 34px;
+	color: $white;
+	}
+
+.titlepage h2 a:link,
+.titlepage h2 a:visited,
+.titlepage h2 a:active,
+{
+	color: $white;
+	text-decoration: none;
+	}
+
+// No page number on the title page
+
+.titlepage:after {
+	visibility: hidden;
+}
+

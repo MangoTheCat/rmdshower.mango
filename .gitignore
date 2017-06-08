@@ -1,2 +1,4 @@
 node/node_modules
 node/shower-mango-*.tgz
+.Rproj.user
+rmdshower.mango.Rproj

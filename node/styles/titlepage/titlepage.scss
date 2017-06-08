@@ -12,15 +12,15 @@
 // Title
 
 .titlepage h1 {
-	text-align: right;
+	text-align: left;
 	position: absolute;
-	right: 30px;
-        top: 20px;
+	left: 30px;
+    top: 50%;
 	width: 60%;
 	font-size: 50px;
 	font-weight: 700;
 	font-family: 'PT Sans Narrow', sans-serif;
-	color: $grey;
+	color: $light-orange;
 	line-height: 1;
 	}
 

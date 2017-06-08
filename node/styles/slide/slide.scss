@@ -23,7 +23,7 @@
 	&::after {
 		position:absolute;
 		right:96px;
-		bottom:48px;
+		bottom:26px;
 		color:$black;
 		counter-increment:slide;
 		content:counter(slide);

@@ -1,40 +1,38 @@
 // ------------------------------------------------------------------
 // Fonts
 // ------------------------------------------------------------------
-// 1. PT Sans .......... Text font
-// 2. PT Sans Narrow ... Headings font
+// 1. Open Sans .......... Text font
+// ~~2. PT Sans Narrow ... Headings font~~
 // 3. PT Mono .......... Code font
 // ------------------------------------------------------------------
 
-// PT Sans
+// Open Sans
 
 @font-face {
-	font-family:PT Sans;
-	src:url(../fonts/pt-sans-regular.woff) format('woff');
+	font-family:Open Sans;
+	src:url(../fonts/Open_Sans/OpenSans-Regular.ttf) format('ttf');
 	}
 @font-face {
 	font-weight:bold;
-	font-family:PT Sans;
-	src:url(../fonts/pt-sans-bold.woff) format('woff');
+	font-family:Open Sans;
+	src:url(../fonts/Open_Sans/OpenSans-Bold.ttf) format('ttf');
 	}
 @font-face {
 	font-style:italic;
-	font-family:PT Sans;
-	src:url(../fonts/pt-sans-italic.woff) format('woff');
+	font-family:Open Sans;
+	src:url(../fonts/Open_Sans/OpenSans-Italic.ttf) format('ttf');
 	}
 @font-face {
 	font-style:italic;
 	font-weight:bold;
-	font-family:PT Sans;
-	src:url(../fonts/pt-sans-bold-italic.woff) format('woff');
+	font-family:Open Sans;
+	src:url(../fonts/Open_Sans/OpenSans-BoldItalic.ttf) format('ttf');
 	}
 
-// PT Narrow
-
 @font-face {
-	font-family:PT Sans Narrow;
+	font-family:Open Sans Extra;
 	font-weight:bold;
-	src:url(../fonts/pt-sans-narrow-bold.woff) format('woff');
+	src:url(../fonts/Open_Sans/OpenSans-ExtraBold.ttf) format('ttf');
 	}
 
 // PT Mono

@@ -10,6 +10,7 @@ h2 {
 p {
 	margin-bottom:1em;
 	font-family: "Open Sans", sans-serif;
+	line-height: normal;
 	&.note {
 		color:lighten($grey, 25%);
 		}

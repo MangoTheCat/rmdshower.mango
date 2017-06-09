@@ -8,19 +8,22 @@
 
 table {
 
-	margin-left:-100px;
+	margin-left:-50px;
 	margin-bottom:1em;
-	width:calc(100% + 100px + 100px);
-
+	width:calc(100% + 50px + 50px);
+	
+	td,th {
+		font-size: 20px;
+	}
 	// Cells
 
 	th:first-child,
 	td:first-child {
-		padding-left:96px;
+		padding-left:46px;
 		}
 	th:last-child,
 	td:last-child {
-		padding-right:96px;
+		padding-right:46px;
 		}
 	th {
 		text-align:left;

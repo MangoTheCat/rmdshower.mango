@@ -1,5 +1,6 @@
 ---
 title: "Shower Presentations with R Markdown"
+subtitle: "hello doug"
 author: "Your Name"
 email: "youremail@mango-solutions.com"
 ratio: 16x10

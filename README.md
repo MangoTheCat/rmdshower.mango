@@ -1,10 +1,15 @@
 # rmdshower.mango
 
-This is the Mango Solutions theme for rmdshower
+> Mango Solutions branded theme for [`rmdshower`](https://github.com/MangoTheCat/rmdshower)
+
+[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active) [![](https://www.r-pkg.org/badges/version/rmdshower.mango)](https://www.r-pkg.org/badges/version/rmdshower.mango) ![LICENSE](https://img.shields.io/badge/LICENSE-MIT-blue.svg)
 
 ## Installation
 
+This package is not currently released on CRAN and so you will need to install it from GitHub.
+
 ```r
+# install.packages("devtools")
 devtools::install_github("MangoTheCat/rmdshower.mango")
 ```
 
@@ -24,3 +29,15 @@ output:
     theme: mango
 ---
 ```
+
+## More information
+
+* See http://rmarkdown.rstudio.com/ for more about R Markdown.
+* There is a long example Rmd document in the inst/examples directory.
+* The HTML output of this document is at http://mangothecat.github.io/rmdshower/skeleton.html
+* The shower homepage is at https://github.com/shower/shower
+* Our own Mango template is at http://mangothecat.github.io/rmdshower/mango.html
+
+## License
+
+MIT © Mango Solutions, R Studio, Vadim Makeev

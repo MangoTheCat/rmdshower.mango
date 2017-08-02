@@ -13,7 +13,7 @@ This package is not currently released on CRAN and so you will need to install i
 devtools::install_github("MangoTheCat/rmdshower.mango")
 ```
 
-## Useage
+## Usage
 
 To use a theme package in an Rmd file, you can simply refer to its name in the `theme` parameter of the YAML header, and `rmdshower` will look up the package and insert the appropriate CSS and other files in the output. As an example, to use the `rmdshower.mango` theme:
 
